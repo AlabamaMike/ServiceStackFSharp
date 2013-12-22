@@ -1,0 +1,22 @@
+﻿namespace FSharpServices
+
+open ServiceStack.Service
+open ServiceStack.ServiceInterface
+open ServiceStack.Common
+open ServiceStack.ServiceHost
+
+[<CLIMutable>]
+type HelloResponse = 
+    { Result : string }
+
+//Hello world DTO
+[<Route("/hello")>]
+[<Route("/hello/{name}")>]
+type Hello() = 
+    interface IReturn<HelloResponse>
+    member val Name = "" with get, set
+
+
+type HelloService() = 
+    inherit Service()
+    member this.Any(request : Hello) = { Result = "Hello" + request.Name }

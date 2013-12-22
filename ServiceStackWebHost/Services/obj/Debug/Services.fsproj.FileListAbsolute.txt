@@ -1,0 +1,7 @@
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\bin\Debug\Services.XML
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\bin\Debug\Services.dll
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\bin\Debug\Services.pdb
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\bin\Debug\FSharp.Core.dll
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\bin\Debug\FSharp.Core.xml
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\obj\Debug\Services.dll
+D:\Projects\ServiceStackFSharp\ServiceStackWebHost\Services\obj\Debug\Services.pdb
