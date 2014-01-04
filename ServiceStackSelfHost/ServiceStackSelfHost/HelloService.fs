@@ -20,5 +20,5 @@ type Hello() =
 
 type HelloService() = 
     inherit Service()
-    member this.Any(request : Hello) = { Result = "Hello" + request.Name }
+    member this.Any(request : Hello) = { Result = "Hello " + request.Name }
 
