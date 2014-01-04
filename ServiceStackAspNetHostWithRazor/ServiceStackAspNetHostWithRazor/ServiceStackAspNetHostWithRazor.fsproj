@@ -99,16 +99,10 @@
     <None Include="packages.config" />
     <Compile Include="HelloService.fs" />
     <Compile Include="App_Start\AppHost.fs" />
-    <None Include="App_Start\WebServiceExamples.cs" />
-    <None Include="App_Start\PageBase.cs" />
-    <None Include="App_Start\AppHost.cs" />
     <Compile Include="Global.asax.fs" />
-    <Content Include="Default.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\Hello.cshtml" />
     <Content Include="README.txt" />
-    <Content Include="jqunback-1.51.min.js" />
-    <None Include="default.htm" />
     <Content Include="Content\js\ss-validation.js" />
   </ItemGroup>
   <ItemGroup>
