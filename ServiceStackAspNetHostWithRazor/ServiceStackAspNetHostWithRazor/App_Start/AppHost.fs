@@ -16,9 +16,10 @@
             this.Plugins.Add(new RazorFormat()) 
             ignore()
 
+       
         static member start() = 
             let apphost = new AppHost()
-            apphost.Init() 
+            apphost.Init()
             
             
 
