@@ -9,7 +9,7 @@
     
     
     type AppHost() = 
-        inherit AppHostHttpListenerBase("Hello F# Service", 
+        inherit AppHostBase("Hello F# Service", 
                                         typeof<HelloService>.Assembly)
         override this.Configure container = 
             ignore()
