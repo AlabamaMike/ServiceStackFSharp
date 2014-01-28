@@ -97,8 +97,6 @@
     <None Include="Web.Release.config" />
     <None Include="Web.Debug.config" />
     <None Include="packages.config" />
-    <Content Include="README.txt" />
-    <Content Include="Content\js\ss-validation.js" />
     <Compile Include="HelloService.fs" />
     <Compile Include="App_Start\AppHost.fs" />
     <Compile Include="AssemblyInfo.fs" />
