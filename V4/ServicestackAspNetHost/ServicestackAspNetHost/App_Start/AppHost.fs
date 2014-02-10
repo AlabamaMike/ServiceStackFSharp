@@ -13,9 +13,9 @@
         override this.Configure container = 
             ignore()
 
-//        static member start() = 
-//            let apphost = new AppHost()
-//            apphost.Init() 
+        static member start() = 
+            let apphost = new AppHost()
+            apphost.Init() |> ignore
             
             
 
