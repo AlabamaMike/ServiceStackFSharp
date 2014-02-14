@@ -4,8 +4,6 @@
     open ServicestackAspNetHost
     open System
 
-    //[<assembly: WebActivator.PreApplicationStartMethod(typeof<ServicestackAspNetHost.App_Start.AppHost>, "Start")>]
-    
     
     type AppHost() = 
         inherit AppHostBase("Hello F# Service", 
