@@ -13,7 +13,7 @@
 
         static member start() = 
             let apphost = new AppHost()
-            apphost.Init() 
+            apphost.Init() |> ignore
             
             
 
